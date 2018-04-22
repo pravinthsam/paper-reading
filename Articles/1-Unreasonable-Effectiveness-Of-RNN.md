@@ -19,7 +19,8 @@ source: [http://karpathy.github.io/2015/05/21/rnn-effectiveness/](http://karpath
     ```class RNN:
         def step(self, x):
           self.hidden_state = np.tanh(np.dot(self.W_hh, self.h)+np.dot(self.W_xh, x))
-          return np.dot(self.W_hy, self.h) ```
+          return np.dot(self.W_hy, self.h) 
+    ```
       
 - Three matrices, W_hh, W_xh, W_hy
 - Stacking RNNS:
@@ -44,6 +45,6 @@ Further reading
 - Show and Tell: A Neural Image Caption Generator
 - Recurrent Models of Visual Attention
 
-- Neural Turing Machines - Graves et al $asdfas$
+- Neural Turing Machines - Graves et al
 
 - Reinforcement lectures - David Silver (http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
